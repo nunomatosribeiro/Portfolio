@@ -238,9 +238,21 @@ font-size: 1.5rem;
   background-color: antiquewhite;
   margin-top: 50px;
   margin-bottom: -10px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.linkdironImg{
+ background-color: antiquewhite;
+
+}
+.fitnessImg{
+  background-color: antiquewhite;
   
 }
-
+.deadpoolImg{
+  background-color: antiquewhite;
+}
 .projectsComponent h1{
   color:burlywood;
   background-color: antiquewhite;
@@ -262,9 +274,29 @@ font-size: 1.5rem;
 
 .linkdironImg{
   width: 350px;
-   border-radius:10px
+   border-radius:10px;
+ margin: 10px;
 }
 .linkdironImg:hover { 
   transform: scale(1.05); 
   transition: 0.5s
   }
+  .fitnessAppImg{
+    width: 350px;
+    height: 200px;
+     border-radius:10px;
+     margin: 10px;
+  }
+  .fitnessAppImg:hover { 
+    transform: scale(1.05); 
+    transition: 0.5s
+    }
+    .deadpoolImg{
+      width: 350px;
+       border-radius:10px;
+       margin: 10px;
+    }
+    .deadpoolImg:hover { 
+      transform: scale(1.05); 
+      transition: 0.5s
+      }
