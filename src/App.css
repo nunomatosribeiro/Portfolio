@@ -75,28 +75,12 @@ html{
   background-repeat: no-repeat;
 }
 
-.aboutComponent{
-  padding: 20px 20px;
-  font-size: 1.5rem;
-  background-color:black;
-  border-radius: 0 150px 150px 0;
-  width: 45%;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  }
+
    @media (max-width: 640px) {
-    .aboutComponentText{
-      display: flex;
-      flex-direction: column;
-      background-color: antiquewhite;
-   
-    height: 100%;
-  }
 
     .imageAbout{
   
-      width:60%;
+      width:350px;
       height: 50vh;
       margin-top:80px;
       margin-left:20px;
@@ -106,7 +90,7 @@ html{
     @media (max-width: 1200px){
       .imageAbout{
   
-        width:30%;
+        width:250px;
         height: 60vh;
         margin-top:80px;
         margin-left:20px;
@@ -123,22 +107,17 @@ html{
        
       }
     }
-.aboutComponentText{
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-width: 50vw;
-
-}
-.aboutComponentImg{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-background-color: black;
-height: 267px;
-margin-top: 80px;
-
-}
+    .aboutComponent{
+      padding: 20px 20px;
+      font-size: 1.5rem;
+      background-color:black;
+      border-radius: 0 150px 150px 0;
+      width: 450px;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      }
+      
   .aboutComponent h1{
     color:burlywood;
     background-color:black;
@@ -156,9 +135,10 @@ margin-top: 80px;
   }
 .imgTextAbout{
   display: flex;
-  flex-direction: row;
-}
+  flex-wrap: wrap;
 
+}
+ 
 
 
 .skillsComponent{
@@ -242,17 +222,6 @@ font-size: 1.5rem;
   flex-wrap: wrap;
 
 }
-.linkdironImg{
- background-color: antiquewhite;
-
-}
-.fitnessImg{
-  background-color: antiquewhite;
-  
-}
-.deadpoolImg{
-  background-color: antiquewhite;
-}
 .projectsComponent h1{
   color:burlywood;
   background-color: antiquewhite;
@@ -276,6 +245,7 @@ font-size: 1.5rem;
   width: 350px;
    border-radius:10px;
  margin: 10px;
+ background-color: antiquewhite;
 }
 .linkdironImg:hover { 
   transform: scale(1.05); 
@@ -286,6 +256,7 @@ font-size: 1.5rem;
     height: 200px;
      border-radius:10px;
      margin: 10px;
+     background-color: antiquewhite;
   }
   .fitnessAppImg:hover { 
     transform: scale(1.05); 
@@ -295,6 +266,7 @@ font-size: 1.5rem;
       width: 350px;
        border-radius:10px;
        margin: 10px;
+       background-color: antiquewhite;
     }
     .deadpoolImg:hover { 
       transform: scale(1.05); 

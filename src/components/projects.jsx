@@ -11,7 +11,7 @@ const Projects = () => {
             <p>Full Stack App</p>
             </a>
             </div>
-            <div className="fitnessImg">
+            <div className="fitnessAppImg">
             <a href="https://fitnessapp.adaptable.app/"  target="_blank" rel="noreferrer"
          style={{ width: '100px'}}>
          <img src='backgroundIMG.jpg' alt='project1' className='fitnessAppImg'/>
