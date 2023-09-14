@@ -15,7 +15,7 @@ html{
 .introSection{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
  height: 100vh;
   /* height: 650px;
   width: 100%;  */
@@ -107,6 +107,7 @@ margin-left: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 }
 
   
@@ -251,38 +252,38 @@ justify-content: space-around;
 }
 .linkdironImgDiv{
  width: 100%;
- max-width: 300px;
+ max-width: 350px;
  background-color: antiquewhite;
 }
 .fitnessAppImgDiv{
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
   background-color: antiquewhite;
   }
 .deadpoolImgDiv{
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
   background-color: antiquewhite;
 }
 .linkdironImg{
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
    border-radius:10px;
-
+   height: 200px;
  background-color: antiquewhite;
 }
 .fitnessAppImg{
   width: 100%;
-  max-width: 300px;
-  height: 157px;
+  max-width: 350px;
+  height: 200px;
   border-radius:10px; 
   background-color: antiquewhite;
 }
   .deadpoolImg{
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
        border-radius:10px;
-       height: 157px;
+       height: 200px;
        background-color: antiquewhite;
     }
 .linkdironImg:hover { 
