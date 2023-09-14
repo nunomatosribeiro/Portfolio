@@ -61,7 +61,7 @@ html{
 .cv span {
   cursor: pointer;
   display: inline-block;
-  position: relative;
+ 
   transition: 0.5s;
   /* background-color: #f4511e; */
 }
@@ -183,6 +183,7 @@ font-size: 1.5rem;
   font-size:32px;
   color:burlywood;
 }
+
 .nav-menu.active{
   background: grey;
 
