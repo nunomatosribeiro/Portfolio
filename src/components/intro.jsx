@@ -1,3 +1,4 @@
+import '../App.css'
 const Intro = () => {
     return ( 
         <section className="introSection" >
