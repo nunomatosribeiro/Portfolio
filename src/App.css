@@ -203,7 +203,7 @@ font-size: 1.5rem;
   justify-content: center;
   align-items: center;
   transition: left 0.3s ease-in-out;
-  opacity: 0.8;
+  opacity: 0.95;
 }
 .side-menu.active {
   left: 0; /* Slide in when active */
